@@ -1,0 +1,15 @@
+
+
+<%= form_for book do |form| %>
+<%# 拿掉實體變數 %>
+
+title
+<%= form.text_field :title %>
+content
+<%= form.text_area :content %>
+price
+<%= form.number_field :price %>
+
+<%= form.submit %>
+
+<% end %>

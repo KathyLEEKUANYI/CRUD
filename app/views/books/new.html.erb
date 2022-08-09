@@ -1,0 +1,8 @@
+<h1>add<h1>
+
+<%# <%= render "abc"  %>
+<%# partial 部分渲染,可將重複的檔案另外單獨拉出來,需要用的再render
+如果在不同目錄則用  <%= render "目錄/abc" %>
+<%= render "abc" , book: @book %>
+
+<%# <%= render partial: "abc" ,locals:{ book: @book} %>
